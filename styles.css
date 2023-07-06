@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+.sign-up{
+    display: flex;
+    height: 100%;
+}
+
+.imgDiv{
+    overflow: hidden;
+    flex: 1;
+    height: auto;
+}
+
+.imgDiv img{
+    height: 100%;
+    width: inherit;
+}
+
+.promotional-text{
+    background-color: #e5e7eb;
+    flex: 1;
+    margin-top: 1%;
+    margin-right: 5%;
+    font-size: 40px;
+    height: fit-content;
+    width: fit-content;
+    padding: 7%;
+    font-family: 'Bacasime Antique', 'Times New Roman', Times, serif;
+}
+
+.form-box{
+    background-color: white;
+    margin-top: 4%;
+
+}
+
+.unit-input{
+    display: flex;
+    flex-direction: column;
+}
+
+label, input{
+    font-size: 26px;
+    margin: 10px;
+    width: fit-content;
+}
+
+
+.fieldset-flex{
+    display: flex;
+}
+
+fieldset{
+    border: 0;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    transition: 0.2s;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    appearance: none;
+}
+
+input:focus{
+    border: none;
+    border: 3px solid #1b03a3;
+    box-shadow: 5px 5px 5px silver;
+}
+
+#submitButton{
+    background-color: #e12b27;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.submit{
+    background-color: #e5e7eb;
+    padding-top: 20px;
+}

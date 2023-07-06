@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="sign-up">
+            <div class="imgDiv"><img src="flower2.jpg" alt="flower_picture"></div>
+        <div class="promotional-text" id="promotionalText">
+            "Now, our operation is small, but there's a lot of potential for aggressive expansion. 
+            So, which of you fine gentlemen would like to join our team? 
+            Oh! There's only one spot open right now, so we're gonna have... tryouts."
+            <div class="form-box">
+                Let's do this!
+
+                <form style="margin-top: 3%;" onsubmit="return submission()">
+                    <fieldset>
+                    <div class="fieldset-flex">
+                        <div class="unit-input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" required id="first_name">
+                        </div>
+                        <div class="unit-input">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" required id="last_name">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="fieldset-flex">
+                        <div class="unit-input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="unit-input">
+                            <label for="phoneNo">Phone No.</label>
+                            <input type="number" id="phoneNo" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="fieldset-flex">
+                        <div class="unit-input">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div class="unit-input">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="submit">
+                    <button type="submit" id="submitButton">Create Account</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
